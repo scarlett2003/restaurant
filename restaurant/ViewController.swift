@@ -43,8 +43,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         return cell    
     }
 
-
-
+    
+    // hide 狀態欄
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
 
 
 }
